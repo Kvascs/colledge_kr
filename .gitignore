@@ -1,0 +1,15 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# База данных создаётся командой `alembic upgrade head`
+*.db
+
+# IDE
+.idea/
+.vscode/
